@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    height: 100%;
+    background: linear-gradient(45deg,  #ffe6a7, #d5bdaf); 
+    /* #ffa5ab, #f9dbbd, #fed9b7, #fdfcdc */
+}
+.main-heading{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    font-weight: 450;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.calculator-container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    height: 430px;
+    width: 350px ;
+    border: 1px solid #c0baba40;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    background: linear-gradient(to right, #f0ead2, #f2cc8f);
+    /* #b38d97, #d5aca9, #ebcfb2, #c5baaf) */
+}
+.calculator:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    border: 1px solid #c0baba40;
+    border-radius: 5px;
+}
+.display-bar{
+    height: 45px;
+    width: 330px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #edf2f4, #e3f2fd) ;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    font-size: 1.2em;
+    gap: 0.8em;
+    margin-top: 10px;
+}
+#clear-cal{
+    background: transparent;
+    border: none;
+    margin-right: 2%;
+    width: 25px;
+    height: 25px;
+    font-size: 0.8em;
+}
+#display{
+    background: transparent;
+    height: 45 ;
+    width: 345px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    border: none;
+    outline: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: right;
+    color: #44494b;
+}
+.btn-box{
+    height: 340px ;
+    width: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-bottom: 10px;
+
+}
+.cal-btn{
+    width: 68px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color : #e3f2fd;
+}
+.display-bar:hover{
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    border: 1px solid #c0baba40;
+    border-radius: 5px;
+}
+button:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    border: 1px solid #c0baba40;
+    border-radius: 5px;
+}
