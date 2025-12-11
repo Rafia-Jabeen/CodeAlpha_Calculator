@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
     height: 100%;
     background: linear-gradient(45deg,  #ffe6a7, #d5bdaf); 
     /* #ffa5ab, #f9dbbd, #fed9b7, #fdfcdc */
@@ -72,7 +71,7 @@ body{
     border: none;
     outline: none;
     font-size: 1.3em;
-    font-weight: bold;
+    font-weight: lighter;
     text-align: right;
     color: #44494b;
 }
@@ -93,7 +92,7 @@ body{
     box-shadow: 0 2px 5px rgba(0,0,0,0.25);
     border: none;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     background-color : #e3f2fd;
 }
@@ -106,4 +105,8 @@ button:hover{
     box-shadow: 0 4px 10px rgba(0,0,0,0.25);
     border: 1px solid #c0baba40;
     border-radius: 5px;
+}
+#clear-cal:hover{
+    box-shadow: none;
+    border: none;
 }
