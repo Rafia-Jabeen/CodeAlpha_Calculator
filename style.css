@@ -4,14 +4,15 @@
 }
 body{
     height: 100%;
-    background: linear-gradient(45deg,  #ffe6a7, #d5bdaf); 
+    background: #f8fafc;
+    /* background: linear-gradient(45deg,  #ffe6a7, #d5bdaf);  */
     /* #ffa5ab, #f9dbbd, #fed9b7, #fdfcdc */
 }
 .main-heading{
     margin-top: 2%;
     text-align: center;
     font-size: 3em;
-    color: black;
+    color: #111827;
     font-weight: 450;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -24,14 +25,17 @@ body{
 .calculator{
     height: 430px;
     width: 350px ;
-    border: 1px solid #c0baba40;
+    /* border: 1px solid #c0baba40; */
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-    background: linear-gradient(to right, #f0ead2, #f2cc8f);
+    /* background: #fef3c7; */
+    background: #f1f5f9;;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    /* box-shadow: 0 8px 20px rgba(0,0,0,0.25); */
+    /* background: linear-gradient(to right, #f0ead2, #f2cc8f); */
     /* #b38d97, #d5aca9, #ebcfb2, #c5baaf) */
 }
 .calculator:hover{
@@ -43,7 +47,8 @@ body{
     height: 45px;
     width: 330px;
     border-radius: 5px;
-    background: linear-gradient(to right, #edf2f4, #e3f2fd) ;
+    background: #ffffff;
+    /* background: linear-gradient(to right, #edf2f4, #e3f2fd) ; */
     box-shadow: 0 4px 10px rgba(0,0,0,0.25);
     display: flex;
     align-items:center;
@@ -71,9 +76,10 @@ body{
     border: none;
     outline: none;
     font-size: 1.3em;
-    font-weight: lighter;
+    font-weight: bold;
     text-align: right;
-    color: #44494b;
+    /* color: #44494b; */
+    color: #111827;
 }
 .btn-box{
     height: 340px ;
@@ -94,7 +100,7 @@ body{
     border-radius: 5px;
     font-size: 1.2em;
     font-weight: bold;
-    background-color : #e3f2fd;
+    /* background-color : #e3f2fd; */
 }
 .display-bar:hover{
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
@@ -109,4 +115,19 @@ button:hover{
 #clear-cal:hover{
     box-shadow: none;
     border: none;
+}
+:root {
+  --primary: #6366f1;
+}
+#answer{
+  background: var(--primary);
+  color: white;
+}
+.operator {
+  background: #eef2ff;
+  color: #3730a3;
+}
+.number{
+  background: #ffffff;
+  color: #111827;
 }
